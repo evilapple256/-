@@ -20,13 +20,13 @@ void draw() {
 //セーシェル共和国の国旗
 void drawNationalFlag(float x, float y, float wid) {
   fill(209, 36, 33);
-  rect((x * 2 - wid) /2, (y * 2 - wid) /2, wid, wid / 3 * 2 );
+  rect((x * 2 - wid) /2, (y * 2 - wid / 3 * 2) /2, wid, wid / 3 * 2 );
   fill(252, 214, 71);
-  triangle((x * 2 - wid) /2, (y * 2 - wid) /2, (x * 2 - wid) /2 + wid / 3 * 2, (y * 2 - wid) /2, (x * 2 - wid) /2, (y * 2 - wid) /2 + wid / 3 * 2);
+  triangle((x * 2 - wid) /2, (y * 2 - wid / 3 * 2) /2, (x * 2 - wid) /2 + wid / 3 * 2, (y * 2 - wid / 3 * 2) /2, (x * 2 - wid) /2, (y * 2 - wid / 3 * 2) /2 + wid / 3 * 2);
   fill(0, 47, 108);
-  triangle((x * 2 - wid) /2, (y * 2 - wid) /2, (x * 2 - wid) /2 + wid / 3, (y * 2 - wid) /2, (x * 2 - wid) /2, (y * 2 - wid) /2 + wid / 3 * 2);
+  triangle((x * 2 - wid) /2, (y * 2 - wid / 3 * 2) /2, (x * 2 - wid) /2 + wid / 3, (y * 2 - wid / 3 * 2) /2, (x * 2 - wid) /2, (y * 2 - wid / 3 * 2) /2 + wid / 3 * 2);
   fill(255, 255, 255);
-  triangle((x * 2 - wid) /2 + wid, (y * 2 - wid) /2 + wid / 9 * 2, (x * 2 - wid) /2 + wid, (y * 2 - wid) /2 + wid / 3 * 2, (x * 2 - wid) /2, (y * 2 - wid) /2 + wid / 3 * 2);
+  triangle((x * 2 - wid) /2 + wid, (y * 2 - wid / 3 * 2) /2 + wid / 9 * 2, (x * 2 - wid) /2 + wid, (y * 2 - wid / 3 * 2) /2 + wid / 3 * 2, (x * 2 - wid) /2, (y * 2 - wid / 3 * 2) /2 + wid / 3 * 2);
   fill(0, 115, 54);
-  triangle((x * 2 - wid) /2 + wid, (y * 2 - wid) /2 + wid / 9 * 4, (x * 2 - wid) /2 + wid, (y * 2 - wid) /2 + wid / 3 * 2, (x * 2 - wid) /2, (y * 2 - wid) /2 + wid / 3 * 2);
+  triangle((x * 2 - wid) /2 + wid, (y * 2 - wid / 3 * 2) /2 + wid / 9 * 4, (x * 2 - wid) /2 + wid, (y * 2 - wid / 3 * 2) /2 + wid / 3 * 2, (x * 2 - wid) /2, (y * 2 - wid / 3 * 2) /2 + wid / 3 * 2);
 }
