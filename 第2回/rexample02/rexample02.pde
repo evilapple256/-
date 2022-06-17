@@ -1,0 +1,16 @@
+size(480, 480);
+background(255);
+arc(45, 45, 40, 40, -QUARTER_PI, PI+QUARTER_PI, PIE);
+arc(135, 45, 40, 40, -QUARTER_PI, PI+QUARTER_PI, PIE);
+circle(75, 55, 10);
+circle(105, 55, 10);
+rect(20, 70, 40, 10);
+rect(20, 85, 40, 10);
+rect(20, 100, 40, 10);
+rect(20, 115, 40, 10);
+rect(120, 70, 40, 10);
+rect(120, 85, 40, 10);
+rect(120, 100, 40, 10);
+rect(120, 115, 40, 10);
+rect(50, 60, 80, 60, 12);
+rect(70,90, 40, 30, 8);
