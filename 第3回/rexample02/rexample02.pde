@@ -1,0 +1,10 @@
+int s;
+size(480, 480);
+background(255);
+noStroke();
+s = int(random(160));
+fill(s, s, s);
+s = int(random(160));
+circle(80, 80, s);
+circle(240, 240, s);
+circle(400, 400, s);
