@@ -24,13 +24,13 @@ void draw() {
   if (50>x1) {
     direction1 = 1;
   }
-    if (x2>405) {
+  if (x2>405) {
     direction2 = -1;
   }
   if (75>x2) {
     direction2 = 1;
   }
-    if (x3>455) {
+  if (x3>455) {
     direction3 = -1;
   }
   if (25>x3) {
